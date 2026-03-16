@@ -1,2 +1,2 @@
-# bug-farm-
+# bug-farm
 Bug养殖场
