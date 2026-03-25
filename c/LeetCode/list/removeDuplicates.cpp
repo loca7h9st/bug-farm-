@@ -44,7 +44,7 @@ public:
         while (first != last)
         {
             *output++ = *first; // *first在调用upper_bound之前就已经被解引用并输出了
-            first = upper_bound(first, last, *first); // upper_bound的返回值只是用来更新first  ，为下一次循环做准备
+            first = upper_bound(first, last, *first); // upper_bound的返回值只是用来更新first  ，为下一次循环做准备 
         }
         return output;
     }
